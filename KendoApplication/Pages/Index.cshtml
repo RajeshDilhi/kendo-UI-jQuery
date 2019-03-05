@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+
+
+    <div id="example">
+        <div class="demo-section-autocomplete k-content">
+            <h4><label for="colors">Choose shipping colors:</label></h4>
+            <input id="colors" style="width: 100%;" />
+            <div class="demo-hint">Start typing the name of color</div>
+        </div>
+    </div>
+
+    <div id="example">
+
+        <div class="demo-section hidden-on-narrow k-content wide">
+            <div id="background">
+                <div class="column">
+                    <h3 class="title">Select Wall Paint</h3>
+                    <div id="palette"></div>
+                </div>
+
+                <div class="column">
+                    <h3 class="title"><label for="picker">Choose Custom Color HEX</label></h3>
+                    <input id="picker" />
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive-message"></div>
+    </div>
